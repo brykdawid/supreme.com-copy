@@ -170,9 +170,11 @@ footer{
 }
 
 .footerRightSide{
-    
+    background-color: black;
 }
 .footerRightSide a{
     text-decoration: none;
     color: black;
 }
+
+
