@@ -60,9 +60,9 @@ header a{
     color: grey;
 }
 .socialMedia i {
-    display: inline-block;   /* Ustawienie ikon obok siebie */
-    margin: 0 10px;          /* Dodanie odstępu między ikonami */
-    font-size: 2em;          /* Ustawienie rozmiaru ikon */
+    display: inline-block;  
+    margin: 0 10px;         
+    font-size: 2em;          
 }
 
 .socialMedia{
@@ -109,8 +109,6 @@ header a{
     font-size: 1.2em;
 }
 footer{
-    margin-top: 100px;
-    background-color: blanchedalmond;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -120,61 +118,35 @@ footer{
     margin-right: 20%;
     font-family: 'Courier New', Courier, monospace;
 }
-.shopOption{
-    margin-left: 0px;
-    width: 100px;
-} 
-.shopOption ul{
-    list-style-type: none;
-}
-.shopOption a{
+footer a{
     text-decoration: none;
     color: black;
-    font-size: 0.8em;
 }
-.shopOption a:hover{
-    background-color: rgb(224, 3, 3);
+footer ul{
+    list-style-type: none;
+}
+footer a:hover{
     color: white;
+    background-color: rgb(224, 3, 3);
 }
-.storeOptions{
-    margin-top: 30px;
-    width: 315px;
+.footerDivOptions{
+    max-height: 100px;
+    max-width: 500px;
     flex-wrap: wrap;
-    align-content: space-evenly;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
-    text-align: left;
-    padding: 0px;
-    
-    
-    
+}
+.footerDivOptions a{
+    display: inline-block;
+    overflow: auto;
+}
+.footerDivRight{
+    display: flex;
+    margin-top: -150px;
+    justify-content: flex-end;
 }
 
-.storeOptions ul{
-    list-style-type: none;
+.footerDivRight li{
+    display: inline-block;
+    grid: 20px;
 }
-.storeOptions a{
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    padding: px;
-    padding-left: 0px;
-    white-space: nowrap;
-    font-size: 0.8em;
-
-}
-
-.storeOptions a:hover{
-    background-color: rgb(224, 3, 3);
-    color: white;
-}
-
-.footerRightSide{
-    background-color: black;
-}
-.footerRightSide a{
-    text-decoration: none;
-    color: black;
-}
-
-
