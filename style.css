@@ -3,7 +3,7 @@
     color: white;
     margin-top: 10%;
 }
-.newsPage{
+.whiteBackgoundPage{
     background-color: white;
     color: black;
     margin-top: 10%;
@@ -113,9 +113,9 @@ footer{
     bottom: 0;
     left: 0;
     height: 200px;
-    width: 60%;
-    margin-left: 20%;
-    margin-right: 20%;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
     font-family: 'Courier New', Courier, monospace;
 }
 footer a{
@@ -149,4 +149,21 @@ footer a:hover{
 .footerDivRight li{
     display: inline-block;
     grid: 20px;
+}
+
+.imageGallery{
+    max-width: 60%;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    place-items: center;
+}
+.imageGallery a{
+    max-height: 150px;
+    max-height: 100px;
+}
+
+.imageGallery a img{
+    width: 300px;
+    height: 140px;
 }
