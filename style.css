@@ -112,15 +112,14 @@ header a{
     font-size: 1.2em;
 }
 footer{
-    position: relative;
+    position: absolute;
+    display: flex;
     bottom: 0;
+    left: 0;
     font-family: 'Courier New', Courier, monospace;
     font-size: 0.75em;
-    padding-bottom: 20px;
     margin-left: 30%;
     margin-right: 30%;
-    display: flex;
-    align-items: center;
 }
 footer a:hover{
     background-color: rgb(224, 3, 3);
@@ -129,19 +128,21 @@ footer a:hover{
 
 footer #inline{
     display: inline-block;
-    padding-bottom: 4cap;
+}
+.footerDivRight{
+    padding-left: 350px;
 }
 .footerOptions{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 10px;
+    padding-top: 35px;
 }
 .imageGallery{
     margin-left: auto;
     margin-right: auto;
     max-width: 820px;
     grid-template-columns: repeat(4, 1fr);
-    
 }
 
 .imageGallery a{
