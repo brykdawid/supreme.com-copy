@@ -6,7 +6,7 @@
 .whiteBackgoundPage{
     background-color: white;
     color: black;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 header div{
@@ -28,6 +28,7 @@ header a{
     justify-content: center;
     padding: 0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: -20px;
     
 }
 
